@@ -1381,7 +1381,7 @@ h6 a {
   background: 0 0/600% #cd496a;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  background-image: linear-gradient(-45deg, #eb5252, #fd2f21, #f19113, #ff7300);
+  background-image: linear-gradient(-45deg, #cd496a, #cd496a, #d00f3f, #ce637e);
   border: 2px solid;
 }
 .btn2,
