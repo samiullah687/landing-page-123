@@ -595,8 +595,8 @@ h6 a {
   .form-con {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-box-align: center;
@@ -617,6 +617,7 @@ h6 a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-top: 10px;
   }
   .why-ch {
     -webkit-box-pack: center;
@@ -634,13 +635,13 @@ h6 a {
   }
   .simple-card {
     max-width: 150px !important;
-    min-width: 130px !important;
+    min-width: 90px !important;
     height: 100px !important;
     -o-object-fit: contain;
     object-fit: contain;
   }
   .card-single img {
-    width: 80px;
+    width: 68px;
     height: 40px;
   }
 }
@@ -1059,10 +1060,11 @@ h6 a {
     font-size: 12px;
   }
   .card-single {
-    padding: 22px 15px;
+    padding: 22px 10px;
+    height: 55px !important;
   }
   .card-single img {
-    width: 86px;
+    width: 68px;
     height: 32px;
   }
   .para .text-sec h2 {
