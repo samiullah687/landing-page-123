@@ -243,6 +243,10 @@ h6 a {
   padding: 100px 0;
   border-radius: 22px;
 }
+.container-view {
+  height: 100px;
+  overflow: hidden;
+}
 @media only screen and (max-width: 1399px) {
   .hero-area {
     padding: 90px 0;
@@ -302,6 +306,10 @@ h6 a {
   }
   .hero-area {
     padding: 40px 0;
+  }
+  .container-view {
+    height: 60px;
+    overflow: hidden;
   }
 }
 .hero-area h1 {
