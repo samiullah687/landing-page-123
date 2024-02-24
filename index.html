@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Wow Health Insight</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.webp" />
+    <link href="/images/favicon.webp" rel="apple-touch-icon" />
+    <!-- <base href="/"> -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/main_minified.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-P7ZK2JB");
+    </script>
+
+    <script>
+      var head = document.head;
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src =
+        "https://t.wowhealthinsight.com/v1/lst/universal-script?ph=38334f4769723ac39348d829b8d0f9c703c3cbf5177397e4d1a3617d947b7907&tag=!clicked&ref_url=" +
+        encodeURI(document.URL);
+      head.appendChild(script);
+    </script>
+  </head>
+
+  <body>
+    <header class="nav-header">
+      <div class="container-fluid">
+        <div class="nav-logo">
+          <img src="assets/img/logo/logo.webp" alt="" />
+        </div>
+        <!-- /.nav-logo -->
+
+        <a href="tel:8002577370" class="phone-flex">
+          <img
+            src="assets/img/users/phone-call.webp"
+            class="phon-logo"
+            alt="phone"
+          />
+          <div class="clltxt">
+            <span> (800) 257-7370 </span>
+            <p>Mon - Sat 8 AM - 8 PM EST</p>
+          </div>
+          <!-- /.clltxt --> </a
+        ><!-- /.phone-flex -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.nav-header -->
+
+    <div
+      class="alert alert-primary text-center mb-0 mobi-alrt"
+      id="imagecheck"
+      style="display: none"
+    >
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <span id="headlineimage"></span>
+        </div>
+        <div class="col-md-12 col-sm-12">
+          <img
+            id="providerimagealert"
+            style="max-width: 150px; padding-top: 10px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- /.alert -->
+
+    <!-- Hero Section -->
+
+    <section
+      class="hero-area bg-light m-4 sm:m-10 p-6 sm:p-10 rounded-2xl md:py-6 md:mt-4 md:mx-32"
+    >
+      <div class="container">
+        <div class="col gx-0 align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <div class="d-none">
+              <div class="mob-google">
+                <div class="star-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                </div>
+                <!-- /.star-flex -->
+                <p>Top Level Service</p>
+              </div>
+              <!-- /.mob-google -->
+            </div>
+            <!-- /.d-lg-none -->
+
+            <div class="hero-left">
+              <h1 id="headerText" class="text-center"></h1>
+
+              <p class="sub-text text-center" id="subHeader"></p>
+
+              <form
+                onSubmit="return false;"
+                class="col-md-6 col-sm-12D mx-auto"
+              >
+                <div class="form-con rounded">
+                  <input
+                    type="text"
+                    class="form-control input-fil me-2"
+                    placeholder="Enter Zip Code"
+                    id="zipcode"
+                  />
+                  <button class="btn-action" type="button" id="button1">
+                    <span> START MY QUOTE </span>
+                  </button>
+                </div>
+                <!-- /.form-con -->
+              </form>
+
+              <div class="text-center">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center gap-2 md-gap-0 mt-2 mb-2 md-mt-8"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-center gap-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 72 72"
+                    >
+                      <path
+                        d="M62.991,18.668c1.854,1.2,2.386,3.677,1.186,5.531l-4.642,7.173C59.829,32.872,60,34.415,60,36	c0,13.25-10.75,24-24,24S12,49.25,12,36s10.75-24,24-24c5.99,0,11.46,2.2,15.67,5.83L37.48,39.76l-8.15-9.33	c-1.09-1.25-2.98-1.38-4.23-0.29c-1.25,1.09-1.38,2.98-0.29,4.23l10.76,12.34c0.58,0.65,1.4,1.03,2.26,1.03	c0.08,0,0.15-0.01,0.22-0.01c0.94-0.07,1.79-0.57,2.3-1.36l17.11-26.516C58.66,17.998,61.135,17.467,62.991,18.668z"
+                        fill="#CD496A"
+                      ></path>
+                    </svg>
+                    <span class="md-block mobile-size">
+                      We've helped <b>2467 people</b> from this month.
+                    </span>
+                  </div>
+                  <div class="d-md-block d-lg-block d-none">
+                    <p>
+                      We work with
+                      <b class="text-gray-800">200 partners,</b> including the
+                      brands below, to offer plans.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- /.single-flex -->
+              </div>
+              <!-- /.why-ch -->
+
+              <div class="d-lg-none d-block">
+                <div class="row g-sm-4 g-2">
+                  <div class="col-4">
+                    <div class="simple-card"></div>
+                    <a
+                      onclick="openQuestionPage()"
+                      class="card-single cursor-pointer"
+                    >
+                      <img
+                        src="assets/img/hero/Aetna_Logo_ss_Violet_RGB_Coated.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <!-- /.col-lg-6 -->
+
+                  <div class="col-4">
+                    <a
+                      onclick="openQuestionPage()"
+                      class="card-single simple-card cursor-pointer"
+                    >
+                      <img src="assets/img/hero/blue-cross.svg" alt="" />
+                    </a>
+                  </div>
+                  <!-- /.col-lg-6 -->
+                  <div class="col-4">
+                    <a onclick="openQuestionPage()">
+                      <img src="assets/img/hero/cigna-logo.svg" alt="" />
+                    </a>
+                  </div>
+                  <!-- /.col-lg-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.d-lg-none -->
+
+              <!-- /.avatar-flex -->
+            </div>
+            <!-- /.hero-left -->
+          </div>
+          <!-- /.col-lg-6 -->
+
+          <div
+            class="col-lg-12 mt-3 d-block"
+            style="height: 100px; overflow: hidden"
+          >
+            <div class="row gy-4 px-10 justify-content-center">
+              <div class="col-md-3 col-sm-6 mobile-view">
+                <div class="simple-card">
+                  <div
+                    onclick="openQuestionPage()"
+                    class="card-single cursor-pointer"
+                  >
+                    <img
+                      src="assets/img/hero/Aetna_Logo_ss_Violet_RGB_Coated.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-md-3 col-sm-6 mobile-view">
+                <div class="simple-card">
+                  <div
+                    onclick="openQuestionPage()"
+                    class="card-single cursor-pointer"
+                  >
+                    <img src="assets/img/hero/blue-cross.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-md-3 col-sm-6 mobile-view">
+                <div class="simple-card">
+                  <div
+                    onclick="openQuestionPage()"
+                    class="card-single cursor-pointer"
+                  >
+                    <img src="assets/img/hero/united.webp" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-md-3 col-sm-6 mobile-view">
+                <div class="simple-card">
+                  <div
+                    onclick="openQuestionPage()"
+                    class="card-single cursor-pointer"
+                  >
+                    <img src="assets/img/hero/cigna-logo.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero-area -->
+
+    <!-- <section class="hero-area">
+      <div class="container">
+        <div class="col gx-0 align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <div class="d-none">
+              <div class="mob-google">
+                <div class="star-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    aria-hidden="true"
+                    role="img"
+                    class="iconify iconify--ic"
+                    width="100%"
+                    height="100%"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                    ></path>
+                  </svg>
+                </div>
+                <p>Top Level Service</p>
+              </div>
+            </div>
+
+            <div class="hero-left">
+              <div class="avatar-flex justify-content-center d-none d-lg-flex">
+                <div class="avatar-img">
+                  <img src="assets/img/users/1.webp" alt="" />
+                  <img src="assets/img/users/2.webp" alt="" />
+                  <img src="assets/img/users/3.webp" alt="" />
+                  <img src="assets/img/users/4.webp" alt="" />
+                  <img src="assets/img/users/5.webp" alt="" />
+                </div>
+                <div class="rate-flex">
+                  <div class="star-flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p>Loved by 1000+ customers</p>
+                </div>
+              </div>
+
+              <h1 id="headerText" class="text-center"></h1>
+
+              <p class="sub-text text-center" id="subHeader"></p>
+
+              <form onSubmit="return false;" class="col-6 mx-auto">
+                <div class="form-con">
+                  <input
+                    type="text"
+                    class="form-control input-fil"
+                    placeholder="Enter Zip Code"
+                    id="zipcode"
+                  />
+                  <button class="btn-action" type="button" id="button1">
+                    <span> Lock in Savings Today </span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9 18L15 12L9 6"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </form>
+
+              <div class="d-lg-none text-center">
+                <p class="mb-3" style="font-size: 17px; font-weight: 500">
+                  Compare plans from 40+ providers
+                </p>
+              </div>
+
+              <div class="why-ch d-none d-lg-flex justify-content-center">
+                <div class="single-flex">
+                  <img src="assets/img/users/wallet.svg" alt="" />
+                  <span> No CC Required </span>
+                </div>
+
+                <div class="single-flex">
+                  <img src="assets/img/users/phone.svg" alt="" />
+                  <span> Free Quotes </span>
+                </div>
+
+                <div class="single-flex">
+                  <img src="assets/img/users/time.svg" alt="" />
+                  <span> Apply in 1 Minute </span>
+                </div>
+              </div>
+
+              <div class="d-lg-none d-block">
+                <div class="row g-sm-4 g-2">
+                  <div class="col-4">
+                    <a
+                      onclick="openQuestionPage()"
+                      class="card-single cursor-pointer"
+                    >
+                      <img
+                        src="assets/img/hero/Aetna_Logo_ss_Violet_RGB_Coated.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+
+                  <div class="col-4">
+                    <a
+                      onclick="openQuestionPage()"
+                      class="card-single cursor-pointer"
+                    >
+                      <img src="assets/img/hero/blue-cross.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a
+                      onclick="openQuestionPage()"
+                      class="card-single cursor-pointer"
+                    >
+                      <img src="assets/img/hero/cigna-logo.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="avatar-flex d-lg-none">
+                <div class="avatar-img">
+                  <img src="assets/img/users/1.webp" alt="" />
+                  <img src="assets/img/users/2.webp" alt="" />
+                  <img src="assets/img/users/3.webp" alt="" />
+                  <img src="assets/img/users/4.webp" alt="" />
+                  <img src="assets/img/users/5.webp" alt="" />
+                </div>
+                <div class="rate-flex">
+                  <div class="star-flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      aria-hidden="true"
+                      role="img"
+                      class="iconify iconify--ic"
+                      width="100%"
+                      height="100%"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p>Loved by 1000+ customers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 mt-3 d-none d-lg-block">
+            <div class="d-lg-block d-none">
+              <p class="font-desktop text-center">
+                Compare plans from 40+ providers
+              </p>
+            </div>
+            <div class="row gy-4">
+              <div class="col-lg-3">
+                <div
+                  onclick="openQuestionPage()"
+                  class="card-single cursor-pointer"
+                >
+                  <img
+                    src="assets/img/hero/Aetna_Logo_ss_Violet_RGB_Coated.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div
+                  onclick="openQuestionPage()"
+                  class="card-single cursor-pointer"
+                >
+                  <img src="assets/img/hero/blue-cross.svg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div
+                  onclick="openQuestionPage()"
+                  class="card-single cursor-pointer"
+                >
+                  <img src="assets/img/hero/united.webp" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div
+                  onclick="openQuestionPage()"
+                  class="card-single cursor-pointer"
+                >
+                  <img src="assets/img/hero/cigna-logo.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="para">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-sec">
+              <h2 id="paragraphHeader"></h2>
+              <p id="paragraphs"></p>
+            </div>
+            <!-- /.text-sec -->
+          </div>
+          <!-- /.col-lg-11 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.para -->
+
+    <section class="faqs">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="title-color">Got Questions?</h2>
+        </div>
+        <!-- /.section-title -->
+        <div class="border-padding">
+          <div class="faq-con">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item wow fadeIn" data-wow-delay=".5s">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                    id="accordian2"
+                  >
+                    What are Obamacare / ACA Options?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Obamacare, also known as the Affordable Care Act (ACA), is
+                      a comprehensive healthcare reform law enacted in March
+                      2010, aimed at improving the accessibility, affordability,
+                      and quality of healthcare in the United States.
+                    </p>
+                    <p class="mt-2">
+                      The primary goal of the ACA is to provide affordable
+                      health insurance coverage to millions of uninsured
+                      Americans by offering financial assistance, and
+                      implementing consumer protections.
+                    </p>
+                    <p class="mt-2">
+                      Under the ACA, health insurance is available through the
+                      Health Insurance Marketplace.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeIn" data-wow-delay=".5s">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                    id="accordian3"
+                  >
+                    What are Bronze, Silver, Gold, Platinum Plans?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      These plans are categorized into four different tiers:
+                      bronze, silver, gold, and platinum. The bronze, silver,
+                      and gold plans offer different levels of coverage and
+                      pricing to cater to the diverse needs of consumers.
+                    </p>
+                    <p class="mt-2">
+                      Bronze plans typically have lower monthly premiums but
+                      higher out-of-pocket costs, making them a suitable option
+                      for those who are relatively healthy and do not expect to
+                      use many healthcare services. Silver and gold plans have
+                      higher monthly premiums but lower out-of-pocket expenses,
+                      making them a better fit for those who anticipate using
+                      more healthcare services or have chronic conditions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeIn" data-wow-delay=".5s">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                    id="accordian4"
+                  >
+                    What is a HMO Plan?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      HMOs (Health Maintenance Organizations) are a lower cost
+                      alternative to PPOs, offering less flexibility but also
+                      lower premiums. HMO members must receive care from
+                      doctors, specialists and hospitals that are within the
+                      HMO’s network. Unlike a PPO.
+                    </p>
+                    <p class="mt-2">
+                      You select a primary care physician, or PCP, who serves as
+                      your primary contact for all of your healthcare needs.
+                      They must also be consulted in order to see a specialist.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeIn" data-wow-delay=".5s">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                    id="accordian5"
+                  >
+                    What is a PPO Plan?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      One of the most popular options is a Preferred Provider
+                      Organization (Also known as PPO). PPO includes individual
+                      and family health coverage options.
+                    </p>
+                    <p class="mt-2">
+                      Healthcare is provided by a network of providers who are
+                      partnered with the PPO plan and offer a substantial
+                      discount to their normal rates. Members can also receive
+                      service from providers outside of the network for a higher
+                      out-of-pocket cost.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item wow fadeIn" data-wow-delay=".5s">
+                <h2 class="accordion-header" id="headingSix">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                    id="accordian6"
+                  >
+                    What Is Long Term Insurance?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Long term health insurance or long duration insurance
+                      refers to health insurance plans that are meant to be held
+                      for a long time, typically at least one year or longer.
+                    </p>
+                    <p class="mt-2">
+                      They are a great solution when you have a stable job or
+                      situation that you know you'll be in for a long time.
+                      There are plans available where rates do not increase for
+                      some time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item wow fadeIn" data-wow-delay=".5s">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                    id="accordian7"
+                  >
+                    What Is Short Term Insurance?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSeven"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingSeven"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Short term health insurance or limited duration insurance
+                      refers to health insurance plans that are temporary,
+                      typically several months to a year.
+                    </p>
+                    <p class="mt-2">
+                      They are a great solution when you're between jobs, a
+                      recent college graduate, or waiting for group coverage to
+                      start. Short term health insurance policies always have a
+                      termination date that you choose when you apply.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.faq-con -->
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.faqs -->
+
+    <footer class="main-footer">
+      <div class="container-fluid">
+        <div class="disc">
+          <h4>Disclaimers and Important Information</h4>
+          <p>
+            wowhealthinsight.com (owned and operated by NEW HORIZONS HEALTH
+            GROUP LLC) is an independent marketplace and is not a federal or
+            state marketplace website. wowhealthinsight.com (owned and operated
+            by NEW HORIZONS HEALTH GROUP LLC) does provide quotes or sell
+            insurance directly to consumers. wowhealthinsight.com (owned and
+            operated by NEW HORIZONS HEALTH GROUP LLC) is not affiliated with
+            any exchange. wowhealthinsight.com (owned and operated by NEW
+            HORIZONS HEALTH GROUP LLC) is a licensed insurance agency or broker.
+            Accordingly, you should not send us (via mail or email) any
+            sensitive information, including personal health information or
+            applications. Any such communications will not be treated as
+            confidential and will be discarded, as, in offering this website, we
+            are required to comply with the standards established under 45 cfr
+            155.260 to protect the privacy and security of personally
+            identifiable information. This website may not display all data on
+            qualified health plans being offered in your state through the
+            marketplace website. To see all available data on qualified health
+            plan options in your state, visit your state marketplace website or
+            go to the health insurance marketplace website at www.healthcare.gov
+          </p>
+
+          <p>
+            This website does not provide information about specific health
+            plans, or enable visitors to obtain insurance quotes, on this
+            website. However, if you provide your information and consent, we
+            will transfer your information to insurance carriers and brokers
+            that may contact you to offer Affordable Care Act (ACA) plans,
+            short-term plans, medical indemnity plans and/or healthcare sharing
+            ministry plans, and we will receive compensation for such transfer.
+            The advertisements appearing on this website are placed by clients
+            from which NEW HORIZONS HEALTH GROUP LLC or partners receives
+            compensation, and such compensation may impact whether such
+            advertisements appear on this website and the order in which they
+            appear.
+          </p>
+          <h4 class="mt-3">Advertised Pricing:</h4>
+          <p>
+            A There are several factors that impact your monthly premium
+            including but not limited to your age, geographical location, annual
+            income, dependents, and the type of plan you choose. Monthly
+            premiums do not include out-of-pocket costs. The advertised price
+            may not be typical. The following parameters were used: 21 year old
+            adult, non-tobacco user, no children, and no available coverage
+            through a spouse’s employer. Even when using the same parameters,
+            this result is subject to change. Statistics disployed on this
+            website, including but not limited to number of people helped,
+            carrier plan amount, and product amount contain all licensed
+            insurance agency brokers that we connect you with.
+          </p>
+          <h4 class="mt-3">Contact Us:</h4>
+          <p>
+            To contact us please email
+            <a
+              href="mailto:support@support-wowhealthinsight.com"
+              style="display: inline-block"
+            >
+              support@support-wowhealthinsight.com</a
+            >
+          </p>
+
+          <div class="footer-links">
+            <b
+              ><a href="/terms.html">Terms of Service</a> |
+              <a href="/privacy.html">Privacy Policy</a> |
+              <a href="california.html">California Privacy Notice</a> |
+              <a href="licenses.html">Licenses</a> |
+              <a href="donotcallme.html">Do Not Sell My Personal Information</a
+              >|
+              <a href="https://www.quotelab.com/marketing-partners.html"
+                >Marketing Partners</a
+              >
+              |
+              <a href="https://www.quotelab.com/agent-marketing-partners.html"
+                >Agent Marketing Partners</a
+              >
+              |
+              <a href="additional-partners.html"
+                >Additional Marketing Partners</a
+              >
+            </b>
+          </div>
+        </div>
+        <!-- /.disc -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.main-footer -->
+
+    <!-- Modal  popup -->
+    <div
+      class="modal fade load-modal"
+      id="launchModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+
+          <div class="modal-body">
+            <div
+              class="row gy-lg-0 gy-3 align-items-center justify-content-center"
+            >
+              <div class="col-lg-4 col-md-6 col-sm-4 col-5">
+                <img
+                  src="assets/img/girl-care.webp"
+                  class="img-fluid"
+                  alt="img"
+                />
+              </div>
+              <!-- /.col-lg-4 -->
+              <div class="col-lg-8">
+                <h2>Did you find a plan right for you?</h2>
+                <a href="tel:+8002577370" class="call-link">
+                  <img src="assets/img/users/phone-call.webp" alt="phone" />
+                  <span>(800) 257-7370</span>
+                </a>
+                <p>Connect with our licensed agents to discuss your options.</p>
+              </div>
+              <!-- /.col-lg-8 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <div class="modal-bot">
+            <div
+              onclick="openQuestionPage()"
+              class="btn-modal"
+              style="cursor: pointer"
+            >
+              THANKS. I'LL CONTINUE ONLINE.
+            </div>
+          </div>
+          <!-- /.modal-bot -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Global Footer -->
+
+    <div class="globalFooter_callContainer js-header-phone">
+      <div class="globalFooter__callCta">
+        <p>
+          <span class="sticky-footer-pulse"></span>
+          Speak to an Agent!
+        </p>
+        <a class="globalFooter__telephoneNum" href="tel:8002577370">
+          <svg
+            class="globalFooter__phoneCallIcon"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="white"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1672_1533)">
+              <path
+                d="M8.22976 5.72673C8.70273 6.53527 8.6757 6.85868 8.00003 7.50551C7.44597 8.04453 6.79733 8.51618 6.22976 9.04173C5.41895 9.79636 5.28381 10.1871 5.81084 11.1574C6.29733 12.0737 6.86489 12.9901 7.5676 13.7447C9.40543 15.766 11.5271 17.4909 13.8514 18.9597C14.7703 19.5392 15.1622 19.4583 15.8649 18.6229C16.3108 18.0973 16.7298 17.5313 17.1757 17.0058C17.8514 16.2107 18.2568 16.1434 19.1487 16.6689C20.4595 17.437 21.7838 18.2051 23.0811 18.9732C24.0676 19.5527 24.1757 19.8626 23.7568 20.9407C22.8784 23.245 20.3379 24.8486 17.7973 24.7138C15.5406 24.606 13.5271 23.7436 11.6352 22.5982C7.66219 20.186 4.28381 17.1405 2.02706 13.017C1.10814 11.3326 0.500029 9.54032 0.12165 7.66722C-0.37835 5.10686 0.689218 3.23375 2.6757 1.77839C3.28381 1.3337 3.09462 1.46845 3.86489 0.915953C4.35138 0.565588 5.16219 0.71382 5.55408 1.34717C8.22976 5.72673 8.22976 5.72673 8.22976 5.72673Z"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_1672_1533">
+                <rect
+                  width="24"
+                  height="24"
+                  fill="white"
+                  transform="translate(0 0.727295)"
+                ></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <span class="js-medicare-swap-inline" style="display: none"
+            >1&nbsp;</span
+          >
+          (800) 257-7370
+        </a>
+        <span class="js-medicare-swap-inline" style="display: none"
+          >&nbsp;TTY users 711</span
+        >
+        <i class="globalFooter__stickyFooterButtonShine"></i>
+      </div>
+    </div>
+
+    <!-- Modal  popup -->
+
+    <script>
+      const mouseLeaveListener = (event) => {
+        let mouseLeft = localStorage.getItem("mouseleft") || "false";
+
+        if (mouseLeft === "false") {
+          var modal = new bootstrap.Modal(
+            document.getElementById("launchModal")
+          );
+          modal.show();
+          localStorage.setItem("mouseleft", "true");
+        } else {
+          return;
+        }
+      };
+      document.addEventListener("mouseleave", mouseLeaveListener);
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      //Open question 1
+
+      const openQuestionPage = () => {
+        window.open("q1.html");
+        window.location.href = "offer.html";
+      };
+    </script>
+    <script src="./scripts/landingv3.js" type="module"></script>
+
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-P7ZK2JB"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+
+    <script type="module">
+      var previousPageURL = document.referrer;
+      var currentPageURL = window.location.href;
+      console.log(window.location.href);
+      if (previousPageURL.indexOf("?") !== -1) {
+        var previousPageQueryString = previousPageURL.split("?")[1];
+        currentPageURL += "?" + previousPageQueryString;
+        console.log("url replaced");
+      }
+      window.history.replaceState({}, "", currentPageURL);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------
+# nav-header
+--------------------------------------------------------------*/
+.nav-header {
+  padding: 11px 25px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  @media only screen and (max-width: 991px) {
+    padding: 10px 10px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 10px 5px;
+  }
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    img {
+      height: 40px;
+      @media only screen and (max-width: 991px) {
+        height: 35px;
+      }
+      @media only screen and (max-width: 767px) {
+        height: 34px;
+      }
+    }
+  }
+}
+
+.phone-flex {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  .phon-logo {
+    height: 33px;
+    margin-right: 5px;
+    @media only screen and (max-width: 991px) {
+      margin-right: 0;
+      height: 30px;
+    }
+    @media only screen and (max-width: 767px) {
+      height: 27px;
+    }
+  }
+  .clltxt {
+    line-height: 1.2;
+    text-align: center;
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
+    span {
+      font-size: 19px;
+      font-weight: 600;
+      color: $title-color;
+    }
+    p {
+      font-size: 11px;
+      color: #777;
+    }
+  }
+}

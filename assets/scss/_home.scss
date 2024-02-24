@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+  ## para
+--------------------------------------------------------------*/
+.para {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  @media only screen and (max-width: 482px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .text-sec {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    h2 {
+      font-size: 38px;
+      font-weight: 400;
+      color: $title-color;
+      margin-bottom: 16px;
+      @media only screen and (max-width: 1299px) {
+        font-size: 38px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 33px;
+        margin-bottom: 12px;
+      }
+      @media only screen and (max-width: 482px) {
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+    }
+    p {
+      margin-bottom: 16px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# faqs
+--------------------------------------------------------------*/
+.faqs{
+  padding-top: 30px;
+  padding-bottom: 60px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 17px;
+    padding-bottom: 40px;
+  }
+  .section-title{
+    text-align: center;
+    h2{
+      font-size: 40px;
+      font-weight: 400;
+      margin-bottom: 30px;
+      @media only screen and (max-width: 767px) {
+        font-size: 33px;
+        margin-bottom: 20px;
+      }
+      @media only screen and (max-width: 482px) {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+.faqs .faq-con {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  .accordion-item {
+    overflow: hidden;
+   border-color: #f2f2f2;
+    border-radius: 0;
+    margin-bottom: 14px;
+    .accordion-header .accordion-button {
+      background-color: #f6f8f7;
+      color: #081828;
+      font-family: $font-family-pop;
+      font-size: 17px;
+      font-weight: 600;
+      border-radius: 0;
+      padding-top: 28px;
+      padding-bottom: 28px;
+      @media only screen and (max-width: 767px) {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      &:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+
+      &:hover {
+        color: #2042e3;
+      }
+
+      &:not(.collapsed) {
+        color: #2042e3;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+    }
+
+    .accordion-body {
+      padding-top: 0px;
+      background-color: #f6f8f7;
+
+      p {
+        font-size: 15px;
+        color: #727272;
+        @media only screen and (max-width: 767px) {
+          font-size: 14px;
+        }
+        span {
+          display: inline-block;
+          color: #081828;
+        }
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+# base
+--------------------------------------------------------------*/
+::selection {
+  color: $title-color;
+  background: rgba($primary-color, 0.6);
+}
+
+body {
+  font-family: $font-family-pop;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: $text-color;
+  line-height: 1.6;
+  @media only screen and (max-width: 767px) {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+section {
+  overflow: hidden;
+}
+
+a {
+  &:hover {
+    color: $primary-color;
+  }
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+i,
+span,
+a {
+  display: inline-block;
+}
+
+audio,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-dm;
+  font-weight: normal;
+  margin: 0;
+  color: $title-color;
+}
+p {
+  margin: 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+
