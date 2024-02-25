@@ -433,6 +433,7 @@ h6 a {
   box-shadow: none;
   font-weight: 500;
   border-radius: 8px;
+  margin-right: 8px;
 }
 .form-con .btn-action {
   display: flex;
@@ -617,6 +618,7 @@ h6 a {
     width: 100%;
     max-width: 300px;
     height: 48px;
+    margin-right: 0px;
   }
   .form-con .btn-action {
     width: 100%;
