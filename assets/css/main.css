@@ -2331,3 +2331,14 @@ h6 a {
   border: 2px solid;
   animation: anime 4s linear infinite forwards;
 }
+.homeContent--section2 ul {
+  font-size: 18px;
+  font-weight: 700;
+  list-style-type: none;
+  -moz-column-count: 4;
+  column-count: 4;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  margin: 0;
+  padding: 0;
+}
