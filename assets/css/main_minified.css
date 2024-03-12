@@ -1461,8 +1461,18 @@ h6 a {
 }
 @media (max-width: 768px) {
   .state-list {
-    display: none;
+    display: block;
   }
+  .state-list ul {
+    -moz-column-count: 3 !important;
+    column-count: 3 !important;
+  }
+  }
+  @media (max-width: 468px) {
+    .state-list ul {
+      -moz-column-count: 2 !important;
+      column-count: 2 !important;
+    }
   }
   .state-list ul {
     font-size: 18px;
